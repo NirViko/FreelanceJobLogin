@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+img {
+  border-bottom: whitesmoke solid 3px;
+  margin-left: 60px;
+}
+i {
+  padding-right: 4px;
+}
+a {
+  text-decoration: none;
+}
+
+input {
+  border: whitesmoke solid 2px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px 5px 5px 5px;
+  padding: 30px;
+  height: 60%;
+  width: 30%;
+  margin-bottom: 20%;
+  gap: 5px;
+  background-color: white;
+  margin-top: 10%;
+}
+.container .abox {
+  display: flex;
+
+  color: white;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+
+.container p {
+  font-size: 14px;
+  margin-top: 40px;
+  margin-left: 20%;
+}
+
+.container p span {
+  color: #0d6efd;
+  font-weight: bold;
+}
+
+.container p a {
+  margin-left: 20px;
+}
+
+.abox #espaceId {
+  background-color: #0d6efd;
+  border-radius: 3px 3px 3px 3px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+}
+
+.abox #adminId {
+  padding-left: 20px;
+
+  background-color: #ffb12a;
+  border-radius: 3px 3px 3px 3px;
+  padding-right: 20px;
+}
+
+input {
+  height: 50px;
+}
